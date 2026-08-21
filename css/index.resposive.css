@@ -1,0 +1,325 @@
+/* 350 */
+@media (max-width: 1300px) {
+ .carousel-item  div.buttons a{
+    padding: 5px 15px;
+    font-size: small;
+ }
+ header .carousel-caption h1 {
+    font-size: 30px;
+}
+header .carousel-inner .carousel-item .container .carousel-caption p{
+    width: 100%;
+    font-size: 12px;
+    letter-spacing: px;
+
+}
+header .carousel-inner .carousel-item .container .row .box2 {
+     width: 100%;
+    }
+    header .carousel-inner .carousel-item.active .container .row .box2 div.head p.text {
+        font-size: 28px;
+        margin-bottom: -10px;
+}
+header .carousel-inner .carousel-item.active .container .row .part1 div.text{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 1;
+}
+header .carousel-inner .carousel-item .container .row .part1 div.num{
+    font-size: 25px;
+    font-weight: 700;
+}
+ .carousel-item  div.buttons a{
+    padding: 2px 10px;
+}
+
+header .carousel-inner .carousel-item.active .container .row .box1 {
+    display: none;
+}
+header .carousel-inner .carousel-item.active .container .row .box2 div.head p{
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1;
+}
+
+
+ .carousel-control-prev {
+    left:65%;
+}
+.carousel-control-next {
+    right:3%;
+}
+.carousel-control-prev ,
+.carousel-control-next {
+    padding: 5px 0px;
+}
+header .carousel-inner .carousel-item .container .row .box2 .icons{
+    column-gap: 40px;
+    width: 95%;
+}
+#AboutUs div.container .row .part1 .content .row .item img{
+    width: 20px;
+   
+}
+#AboutUs div.container .row .part1 .content .row .item span{
+    font-size: 12px;
+}
+#AboutUs div.container .row .part1 .content .buttons a{
+    padding: 5px 15px;
+    font-size: small;
+    
+}
+#AboutUs div.container .row .part2 .image .box::before{
+    left: 35%;
+}
+#Testimonials{
+    background-color: #060B0E;
+}
+    #Testimonials video {
+        display: none;
+    }
+     #Testimonials .container h2 {
+        font-size: 20px;
+    }
+        #Testimonials .container .text {
+        width: 90%;
+        font-size: 12px;
+        /* margin: 0px 10px; */
+    }
+
+#OurMenu .container-fluid .nav button::after{
+   border: 10px solid transparent;
+   border-bottom-color: #fff;
+   border-bottom-width: 0px;
+   transform: translate(-50%);
+    bottom: 0%;
+    right: initial;
+    top: initial;
+    left: 50%;
+}
+#OurMenu .container-fluid .nav button.active::after{
+    border-bottom-width: 10px;
+}
+#Team .row  .box  {
+    margin: 10px auto;
+
+
+}
+    #OrderNow  .item1{
+    width: 100%;
+}
+
+#OrderNow form .input-group,
+#OrderNow form .buttons{
+    width: 90%;
+}
+}
+/* 450 */
+@media (min-width: 371px) and (max-width: 1300px) {
+    .row .box2 div.head p.text {
+        font-size: 25px;
+    }
+    header .carousel-inner .carousel-item .container .row .box2 div {
+    font-size: 16px;
+}
+    .carousel-item div.buttons a {
+        padding: 5px 15px;
+        font-size: 18px;
+    }
+
+    header .carousel-inner .carousel-item .container .row .box2 .icons{
+    column-gap: 15px;
+    width: 80%;
+}
+
+    header .carousel-caption h1 {
+        font-size: 40px;
+    }
+        header .carousel-inner .carousel-item .container .carousel-caption p {
+        width: 90%;
+        font-size: 14px;
+    }
+    header .carousel-inner .carousel-item .container .row .part1 img{
+        width: 35%;
+
+    }
+    header .carousel-inner .carousel-item .container .row .part1 .image {
+        transform: translate(0px, 0px);
+    }
+    .carousel-control-prev {
+        left: 75%;
+    }
+        #AboutUs div.container .row .part1 .content .row .item img {
+        width: 25px;
+    }
+    #AboutUs div.container .row .part1 .content .row .item span {
+        font-size: 16px;
+    }
+#Team .row  div.box:hover div.text {
+    bottom: 5%;
+}
+}
+/* 650 */
+@media (min-width: 577px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item.active .container .row .box2 div.head p.text {
+        font-size: 25px;
+        
+    }
+    header .carousel-inner .carousel-item .container .row .box2 .icons {
+        width: 75%;
+    }
+    header .carousel-inner .carousel-item.active .container .row .part1 div.text {
+        font-size: 60px;
+    }
+    header .carousel-caption h1 {
+        font-size: 50px;
+    }
+     .carousel-item div.buttons a {
+        padding: 5px 15px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+  #AboutUs div.container .row .part2 .image .box::before{
+    left: 40%;
+}
+   #Testimonials .container h2 {
+        font-size: 30px;
+    }
+
+#Testimonials .container .text {
+        width: 90%;
+        font-size: 16px;
+        margin: 20px 5px;
+    }
+    #OurMenu .container-fluid .nav {
+        justify-content: center;
+    }
+    #OurMenu .container-fluid .nav button {
+        width: initial;
+    }
+    #Team .row .box{
+   max-width: 350px;
+}
+}
+/* 850 */
+@media (min-width: 769px) and (max-width: 1300px) {
+
+     header .carousel-inner .carousel-item .container .row .part1 img {
+        width: 100%;
+    }
+        header .carousel-inner .carousel-item.active .container .row .part1 div.text {
+        font-size: 50px;
+    }
+    header .carousel-inner .carousel-item .container .row .part2 {
+      margin: 50px 0px;
+    
+}
+    header .carousel-inner .carousel-item .container .carousel-caption p {
+        width: 80%;
+        font-size: 16px;
+    }
+    header .carousel-inner .carousel-item .container .row .box2 {
+        width: 50%;
+    }
+    .carousel-control-prev {
+        left: 82%;
+    }
+    header .carousel-inner .carousel-item.active .container .row .box1 img {
+        width: 100%;
+    }
+   
+        #AboutUs div.container .text {
+        font-size: 18px;
+    }
+        #AboutUs div.container p {
+            font-size: 12px;
+
+        }
+
+
+       #AboutUs div.container .row .part1 .content .row .item span {
+        font-size: 13px;
+    }
+
+#AboutUs div.container .row .part1 .content .row .item img {
+    width: 20px;
+}
+#AboutUs div.container .row .part2 .image h3 {
+    left: 55%;
+}
+ #Testimonials video {
+        display: flex;
+    }
+#Testimonials .container .content .box .item{
+        padding: 15px 10px;
+    }
+    #Testimonials .container .content .box .item img{
+    width: 40px;
+}
+     #Testimonials .container .item h4 {
+        font-size: 15px;
+    }
+    #Team .row .box .text {
+    bottom: 10%;
+}
+#Team .row  div.box:hover div.text {
+    bottom: 20%;
+}
+}
+/* 1050 */
+@media (min-width: 992px) and (max-width: 1300px) {
+     header .carousel-inner .carousel-item .container .row .part1 img {
+        width: 80%;
+    }
+    header .carousel-caption h1 {
+        font-size: 70px;
+    }
+     
+        header .carousel-inner .carousel-item .container .carousel-caption p {
+        width: 70%;
+    }
+      header .carousel-inner .carousel-item.active .container .row .box1 img {
+        width: 75%;
+    }
+
+
+    #AboutUs div.container .row .part1 .content .row .item span{
+      font-size: 20px;
+}
+ #Testimonials .container h2 {
+        font-size: 35px;
+    }
+#Testimonials .container .text {
+        width: 80%;
+    }
+#Testimonials .container .item h4 {
+        font-size: 20px;
+    }
+   #Team .row .box{
+   max-width: 280px;
+}
+    #Team .row .box .text {
+    bottom: 0%;
+}
+#Team .row  div.box:hover div.text {
+    bottom: 10%;
+}
+   #OrderNow  .item1{
+    width: 90%;
+}
+#OrderNow form .input-group,
+#OrderNow form .buttons{
+    width:70%;
+}
+   
+  
+}
+
+/* 1250 */
+@media (min-width: 1181px) and (max-width: 1300px) {
+    .carousel-control-prev {
+        left: 87%;
+    }
+
+  
+}
